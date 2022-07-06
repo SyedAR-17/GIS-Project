@@ -5,7 +5,7 @@ import time
 
 #URL to get the POI data in a specified radius around the mentioned point
 #The unit of radius is meters
-url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=30.1575,71.5249&radius=150000&type=point_of_interest&key=AIzaSyAQbBkAi3FghRWDkFbRnMDLLH4mXPRWG38'
+url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=30.1575,71.5249&radius=150000&type=point_of_interest&key=APIKEY'
 
 #Function to write the file
 def write_file():
